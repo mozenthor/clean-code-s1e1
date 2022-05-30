@@ -13,15 +13,16 @@
   text-align: right;
 }
 
-.aside__wrapper img {
+.aside__img {
   width: 100%;
+  display: block;
 }
 
 .aside__wrapper .aside__more-info {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .aside__wrapper {
     text-align: center;
@@ -92,7 +93,7 @@ button{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -109,7 +110,11 @@ button{
 
 .add-item__heading {
   display: block;
-  margin: 0 0 20px;
+  margin: 16px 0 20px;
+}
+
+.todo__heading {
+  margin-top: 16px;
 }
 
 #new-task {
@@ -146,13 +151,15 @@ button{
   width: 226px;
 }
 
-.task__button-delete img {
+.task__button-delete_img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+  display: block;
+  margin: 0 auto;
 }
 
-.task__button-delete img:hover {
+.task__button-delete_img:hover {
   transform: rotateZ(0);
 }
 
