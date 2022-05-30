@@ -169,11 +169,11 @@ button{
   display: none;
 }
 
-.todo__item.edit-mode .task__input-text {
+.todo__item.task_edit-mode .task__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.todo__item.task_edit-mode .task__input-label {
+.todo__item.task_edit-mode .task__label {
   display: none;
 }
